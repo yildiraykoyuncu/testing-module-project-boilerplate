@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf8'>
+  <title>Memory Game</title>
+
+  <link href="./style.css" rel="stylesheet" />
+
+  <!-- load the testing dependencies -->
+  <script src='./dependencies/chai.js'></script>
+  <script src='./dependencies/describe-it.js'></script>
+  <script>const assert = chai.assert;</script>
+
+
+  <!-- load the interaction scripts -->
+  <script src='./scripts/user-actions/memory-game.js'></script>
+
+
+  <!-- Leave this here!  It renders the review buttons  -->
+  <script src='./dependencies/review-buttons/init.js'></script>
+
+</head>
+
+<body>
+<h1>MEMORY GAME</h1>
+<h3>How to play this game?</h3>
+<p>When you press the button to start a game, 20 numbers between 1 and 1000 will be generated. You have to remember as many as you can. Then you will be asked to enter the numbers you remembered. What will be your result? It's all in your hands. Good Luck!!!</p>
+    <button class="button first" onclick='memoryGameHandler()'>Start the GAME</button> <br>
+
+</body>
+
+</html>
