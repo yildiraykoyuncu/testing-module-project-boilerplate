@@ -4,7 +4,7 @@
 
 __As a site visitor, I want to play a number guess game__
 
-### 2. Dice Game
+# 2. Dice Game
 
 
 # User-stories for Dice-game
