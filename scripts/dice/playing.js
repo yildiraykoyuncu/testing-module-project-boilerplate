@@ -12,7 +12,7 @@ function player1(){
      let number = Math.floor(Math.random()*6)+1;
      let roundscore = 0;
      let give = roundscore + number;
-     let dice = document.querySelector('.dice');
+     
 
 
     array1.push(give);
