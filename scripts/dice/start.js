@@ -8,7 +8,7 @@ function start() {
     const p = document.getElementById('p');
     
 
-    let number = Math.floor(Math.random()* 10);
+    let number = Math.floor(Math.random()* 10) + 1;
     if(number % 2 === 0){
       p.innerHTML = `Start with player2`;
     }else{
