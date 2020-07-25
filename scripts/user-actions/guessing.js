@@ -1,30 +1,5 @@
 'use strict'
-'debugger';
-/*
-const guessing = () => {
-    const phase1 = prompt('How high is the Mount Everest?');
-    const cast = Number(phase1);
-    
-    if (!phase1) {
-        return;
-    } else if (Object.is(cast, NaN)) {
-        alert(`${phase1} is not a valid number`);
-        return;
-    } else {
-        if (cast <= 2212 || cast >= 15484) {
-            alert(`Very, very cold!! Try it again. \n Hint, is a number between 2000 and 15000`);
-        } else if (cast > 2212 && cast <= 4424 || cast < 15484 && cast >= 13272 ) {
-            alert(`Cold. Try it again. \n Hint, is a number between 4000 and 13000`);
-        } else if (cast > 4424 && cast <= 6636 || cast < 13272 && cast >= 11060 ) {
-            alert(`Starting to get warmer! \n Hint, is a number between 6500 and 10500`);
-        } else if (cast > 6636 && cast <= 8847 || cast < 11060 && cast > 8848 ) {
-            alert(`Starting to get warmer! \n Hint, is a number between 8500 and 9000`);
-        } else if (cast === 8848) {
-            alert('You are right!');
-        }
-    }
-};
-*/
+//'debugger';
 
 const test = () => {
     const objects = [
@@ -93,7 +68,7 @@ const test = () => {
     ];
     const shuffle = Math.floor(Math.random() * 10);
     const question = [objects[shuffle].name, objects[shuffle].high, (shuffle + 1), objects[shuffle].about, objects[shuffle].picture];
-    console.log(question);
+    //console.log(question);
     return question;
 }
 
