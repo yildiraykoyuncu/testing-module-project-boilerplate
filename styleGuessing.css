@@ -1,0 +1,52 @@
+body,
+html {
+	font-family: 'Arial', sans-serif;
+	height: 100%;
+    display: grid;
+    grid-template-rows: 25% 100% 200px;
+}
+
+.heroPicture {
+    background-image: url(https://improvedrawing.com/wp-content/uploads/2019/07/How-to-Draw-a-Mountain-and-River-in-Charcoal-Pencil.jpg?ezimgfmt=ng:webp/ngcb3);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start {
+    margin: 1em;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    
+}
+.gameBox {
+	margin: 50px auto 0 auto;
+    text-align: center;
+    min-width: 600px;
+	border-radius: 10px;
+	border: 1px solid #dedede;
+	padding: 0;
+    background-color: rgba(244, 244, 244, 0.8);
+    }
+
+.headerText {
+    position: relative;
+    margin: auto;
+    color: #fff;
+    background-color: rgba(133, 133, 133, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#answerTitle {
+    font-size: 20px;
+}
+
+#answerTop {
+    font-style: italic;
+}
+
+#link {
+    padding-bottom: 20px;
+}

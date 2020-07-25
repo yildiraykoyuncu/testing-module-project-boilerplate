@@ -64,11 +64,11 @@ __As a site visitor, I want to play a memory game__
 
 ### Repo
 
-- [ ] developed on a branch named `memory-game`
+- [x] developed on a branch named `memory-game`
 
 ### JS
 
-- [ ] Write a code which shows user 20 words and returns a score depending on how many words user remembered correctly`memory-game.js`
+- [x] Write a code which shows user 20 numbers and returns a score depending on how many numbers user remembered correctly `memory-game.js`
 
 ---
 

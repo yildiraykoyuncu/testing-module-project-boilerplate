@@ -1,7 +1,7 @@
 if (window.location.href.indexOf('http') !== -1) {
   window.onload = () => {
     const validateContainer = document.createElement('div');
-    validateContainer.style = 'text-align:center;';
+    validateContainer.style = 'text-align:center; max-height: 50px';
 
     const validateHTML = document.createElement('button');
     // how would you label this button with ARIA?

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Game</title>
+</head>
+
+<body>
+    <header>
+        <h1>I have number in mind! Can you guess it?</h1>
+    </header>
+    <main>
+        <section class="description">
+            <h2>How to play?</h2>
+            <p>First set a starting and ending number. Game will choose a random number between the numbers you set. Then try to guess it. You will have score out of 100 depending on how many times you try! For each failed try you will lose 10 points. <br>                Lets play!</p>
+        </section>
+
+        <section class="game-settings">
+
+            <h2>Game Settings</h2>
+
+            <form>
+                <label for="start">Starting Number</label>
+                <input id="start" type="text" name="start">
+                <label for="end">Ending Number</label>
+                <input id="end" type="text" name="end">
+            </form>
+
+            <button id="set" onclick="settingsHandler()">Confirm</button>
+        </section>
+
+        <section class="display">
+            <div id="message" class="message">
+                <span id="message"></span>
+            </div>
+            <div id="scoreDisplay" class="score">
+                <span id="score"></span>
+            </div>
+        </section>
+
+        <section class="game">
+            <h2>Play!</h2>
+            <span id="gameMessage"></span>
+            <form>
+                <input id="guess" type="text">
+            </form>
+            <button id="guess btn" onclick="numberGameHandler()">Guess!</button>
+        </section>
+
+
+
+    </main>
+
+
+
+    <script src="./scripts/user-actions/number-game.js"></script>
+</body>
+
+</html>

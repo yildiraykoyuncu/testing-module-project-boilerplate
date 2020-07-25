@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Guessing Game</title>
+
+  <link href="./styleGuessing.css" rel="stylesheet" />
+
+  <!-- load the testing dependencies -->
+  <script src='./dependencies/chai.js'></script>
+  <script src='./dependencies/describe-it.js'></script>
+  <script>const assert = chai.assert;</script>
+
+  <!-- load the guessing game -->
+  <script src='./scripts/user-actions/guessing.js'></script>
+
+  <!-- Leave this here!  It renders the review buttons  -->
+  <script src='./dependencies/review-buttons/init.js'></script>
+
+</head>
+
+<body class='heroPicture'>
+  <h1 class='headerText'>Top 10 Highest Mountains of the world</h1>
+  <main class='gameBox'>
+    <button class='start' onclick="guessing()">push to start</button>
+    <p id='answerTitle'></p>
+    <p id='answerNames'></p>
+    <p id='answerTop'></p>
+    <div id='link'></div>
+  </main>
+
+</body>
+
+</html>
